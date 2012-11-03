@@ -4,7 +4,7 @@ module Autocomplete
   class InstallGenerator < Rails::Generators::Base
     def install
       # Copy the unobtrusive JS file
-      copy_file('autocomplete-rails.js', 'vendor/javascripts/autocomplete-rails.js')
+      copy_file('autocomplete-rails.js', 'vendor/assets/javascripts/autocomplete-rails.js')
     end
 
     def self.source_root
